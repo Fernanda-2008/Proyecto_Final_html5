@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>San Miguel de Allende</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+<h1>San Miguel</h1>
+
+<div class="menu-toggle" id="menu-toggle">☰</div>
+
+<nav id="nav">
+<a href="#inicio">Inicio</a>
+<a href="#info">Información</a>
+<a href="#lugares">Lugares</a>
+<a href="#cultura">Cultura</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+<div class="overlay"></div>
+
+<div class="hero-text fade">
+<h2>San Miguel de Allende</h2>
+
+<p>
+Ubicado en el estado de Guanajuato, San Miguel de Allende es uno de los destinos turísticos
+más importantes de México. Su reconocimiento internacional se debe a su arquitectura,
+su riqueza cultural y su ambiente artístico.
+</p>
+
+<button class="btn" onclick="scrollToSection('info')">Conocer más</button>
+</div>
+</section>
+
+<main>
+
+<!-- INFORMACIÓN -->
+<section id="info" class="fade">
+<h2>Información de San Miguel de Allende</h2>
+
+<p>
+San Miguel de Allende fue fundado en el siglo XVI y ha sido reconocido como Patrimonio Cultural de la Humanidad.
+Su desarrollo histórico está ligado a la independencia de México, destacando la participación de Ignacio Allende.
+</p>
+
+<p>
+La ciudad conserva un estilo colonial único, caracterizado por calles empedradas, arquitectura barroca
+y una gran variedad de espacios culturales.
+</p>
+
+<p>
+Actualmente, es un destino turístico de alto nivel que atrae visitantes nacionales e internacionales,
+gracias a su calidad de vida, seguridad y oferta cultural.
+</p>
+
+<div class="grid">
+<img src="img/info1.jpg">
+<img src="img/info2.jpg">
+</div>
+
+<button class="btn" onclick="scrollToSection('lugares')">Ver lugares</button>
+
+</section>
+
+<!-- LUGARES -->
+<section id="lugares" class="fade">
+<h2>Lugares Turísticos</h2>
+
+<p>
+La Parroquia de San Miguel Arcángel es el símbolo principal de la ciudad,
+destacando por su diseño neogótico y su relevancia histórica.
+</p>
+
+<p>
+El Jardín Principal funciona como el centro social y turístico,
+rodeado de restaurantes, cafeterías y edificios emblemáticos.
+</p>
+
+<p>
+También existen museos, galerías de arte y mercados que enriquecen la experiencia cultural.
+</p>
+
+<div class="grid">
+<img src="img/parroquia.jpg">
+<img src="img/jardin.jpg">
+</div>
+
+<button class="btn" onclick="scrollToSection('cultura')">Ver cultura</button>
+
+</section>
+
+<!-- CULTURA -->
+<section id="cultura" class="fade">
+<h2>Cultura y Gastronomía</h2>
+
+<p>
+San Miguel de Allende cuenta con una intensa vida cultural,
+destacando festivales internacionales de arte, cine y música.
+</p>
+
+<p>
+En el ámbito gastronómico, ofrece platillos tradicionales como enchiladas mineras,
+además de una gran variedad de restaurantes contemporáneos.
+</p>
+
+<p>
+La mezcla entre tradición y modernidad crea una identidad única.
+</p>
+
+<div class="grid">
+<img src="img/comida.jpg">
+<img src="img/festival.jpg">
+</div>
+
+<button class="btn" onclick="scrollToSection('galeria')">Ver galería</button>
+
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="fade">
+<h2>Galería</h2>
+
+<div class="galeria">
+<img src="img/galeria1.jpg">
+<img src="img/galeria2.jpg">
+<img src="img/galeria3.jpg">
+<img src="img/galeria4.jpg">
+</div>
+
+<button class="btn" onclick="scrollToSection('contacto')">Ir a contacto</button>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="fade">
+<h2>Conclusión y Contacto</h2>
+
+<p>
+San Miguel de Allende representa una combinación perfecta entre historia,
+cultura y desarrollo turístico, siendo uno de los destinos más importantes de México.
+</p>
+
+<p>
+Este proyecto permite comprender la importancia de preservar el patrimonio cultural
+y su impacto en la sociedad.
+</p>
+
+<form>
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<textarea placeholder="Mensaje"></textarea>
+<button class="btn">Enviar mensaje</button>
+</form>
+
+<div class="grid">
+<img src="img/contacto1.jpg">
+<img src="img/contacto2.jpg">
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>Proyecto Final | 2026</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
 
